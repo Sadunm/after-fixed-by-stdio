@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Hind Siliguri', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #080b0e;
+    color: #e2e8f0;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Hind Siliguri', 'Cinzel', sans-serif;
+  }
+}
+
+/* Custom Neon Lighting Glow Palette for Headlines */
+.neon-glow-cyan {
+  color: #38bdf8;
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.7), 0 0 22px rgba(56, 189, 248, 0.4);
+}
+
+.neon-glow-gold {
+  color: #fcd34d;
+  text-shadow: 0 0 8px rgba(252, 211, 77, 0.7), 0 0 22px rgba(252, 211, 77, 0.4);
+}
+
+.neon-glow-emerald {
+  color: #34d399;
+  text-shadow: 0 0 8px rgba(52, 211, 153, 0.7), 0 0 22px rgba(52, 211, 153, 0.4);
+}
+
+.neon-glow-rose {
+  color: #fb7185;
+  text-shadow: 0 0 8px rgba(251, 113, 133, 0.7), 0 0 22px rgba(251, 113, 133, 0.4);
+}
+
+.neon-glow-purple {
+  color: #c084fc;
+  text-shadow: 0 0 8px rgba(192, 132, 252, 0.7), 0 0 22px rgba(192, 132, 252, 0.4);
+}
+
+.neon-glow-amber {
+  color: #fb923c;
+  text-shadow: 0 0 8px rgba(251, 146, 60, 0.7), 0 0 22px rgba(251, 146, 60, 0.4);
+}
+
+.neon-glow-blue {
+  color: #60a5fa;
+  text-shadow: 0 0 8px rgba(96, 165, 250, 0.7), 0 0 22px rgba(96, 165, 250, 0.4);
+}
+
+.neon-glow-lime {
+  color: #a3e635;
+  text-shadow: 0 0 8px rgba(163, 230, 53, 0.7), 0 0 22px rgba(163, 230, 53, 0.4);
+}
+
+.neon-glow-teal {
+  color: #2dd4bf;
+  text-shadow: 0 0 8px rgba(45, 212, 191, 0.7), 0 0 22px rgba(45, 212, 191, 0.4);
+}
+
+/* Glassmorphic & luxury effects */
+.luxury-glass {
+  background: rgba(15, 20, 26, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.luxury-card {
+  background: linear-gradient(145deg, rgba(20, 26, 33, 0.85), rgba(12, 16, 22, 0.95));
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+}
+
+.luxury-card:hover {
+  border-color: rgba(52, 211, 153, 0.3);
+  box-shadow: 0 15px 35px -10px rgba(16, 185, 129, 0.15);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #080b0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #059669;
+}

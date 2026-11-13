@@ -1,0 +1,6 @@
+{
+  "name": "বাদশাহ প্রিমিয়াম পারফিউম",
+  "description": "বাদশাহ প্রিমিয়াম পারফিউম - প্রিমিয়াম মন মাতানো পারফিউম ও আতরের এক্সক্লুসিভ কালেকশন। সারাদেশে ক্যাশ অন ডেলিভারি।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
